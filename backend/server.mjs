@@ -63,7 +63,7 @@ const server = http.createServer(async (req, res) => {
     return send(res, 200, { ok: true, service: 'meal-backend', timestamp: new Date().toISOString() })
   }
 
-  if (url.pathname === '/api/meals' && req.method === 'GET') {
+  if ((url.pathname === '/api/meals' || url.pathname === '/api/feed') && req.method === 'GET') {
     const date = normalizeDate(url.searchParams.get('date'))
     if (!date) return send(res, 400, { error: 'date is required (YYYY-MM-DD)' })
     const city = url.searchParams.get('city') || ''

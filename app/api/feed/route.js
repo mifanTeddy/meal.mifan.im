@@ -11,7 +11,7 @@ export async function GET(request) {
   const city = searchParams.get('city') || ''
   const mealType = searchParams.get('mealType') || ''
 
-  const base = normalizeBase(process.env.MEAL_BACKEND_URL)
+  const base = normalizeBase(process.env.MEAL_BACKEND_URL || process.env.MEAL_API_BASE_URL)
   if (!base) {
     return NextResponse.json({
       date,
@@ -24,7 +24,7 @@ export async function GET(request) {
     })
   }
 
-  const url = new URL(`${base}/api/meals`)
+  const url = new URL(`${base}/api/feed`)
   if (date) url.searchParams.set('date', date)
   if (city) url.searchParams.set('city', city)
   if (mealType) url.searchParams.set('mealType', mealType)

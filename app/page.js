@@ -1,6 +1,7 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
+import { fetchFeed } from './lib/client-api'
 
 function todayInShanghai() {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai' }).format(new Date())
@@ -29,18 +30,12 @@ export default function Page() {
 
   const hasData = items.length > 0
 
-  const queryString = useMemo(() => {
-    const url = new URLSearchParams({ date, city, mealType })
-    return url.toString()
-  }, [date, city, mealType])
-
   async function loadMeals() {
     setLoading(true)
     setNote('')
     setPicked(null)
     try {
-      const res = await fetch(`/api/feed?${queryString}`, { cache: 'no-store' })
-      const payload = await res.json()
+      const payload = await fetchFeed({ date, city, mealType })
       setItems(Array.isArray(payload.items) ? payload.items : [])
       setUpdatedAt(payload.updatedAt || null)
       if (!payload.backendConfigured) {
@@ -126,7 +121,7 @@ export default function Page() {
           ))}
         </div>
 
-        <div className="note">{note || '调用接口：/api/feed，后端写入接口：backend/server.mjs -> /api/admin/upsert'}</div>
+        <div className="note">{note || '前端接口基址使用 NEXT_PUBLIC_API_BASE_URL（默认 /api）。后端写入接口：backend/server.mjs -> /api/admin/upsert'}</div>
       </section>
     </main>
   )
