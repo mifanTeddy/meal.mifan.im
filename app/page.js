@@ -7,6 +7,14 @@ function todayInShanghai() {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai' }).format(new Date())
 }
 
+function shiftDate(value, deltaDays) {
+  const [year, month, day] = value.split('-').map(Number)
+  if (!year || !month || !day) return value
+  const date = new Date(Date.UTC(year, month - 1, day))
+  date.setUTCDate(date.getUTCDate() + deltaDays)
+  return date.toISOString().slice(0, 10)
+}
+
 function randomPick(list) {
   if (!list.length) return null
   const total = list.reduce((sum, item) => sum + (Number(item.score) > 0 ? Number(item.score) : 1), 0)
@@ -35,7 +43,19 @@ export default function Page() {
     setNote('')
     setPicked(null)
     try {
-      const payload = await fetchFeed({ date, city, mealType })
+      let payload = await fetchFeed({ date, city, mealType })
+      const noData = Array.isArray(payload.items) && payload.items.length === 0
+      if (noData) {
+        const fallbackDate = shiftDate(date, -1)
+        if (fallbackDate !== date) {
+          const fallbackPayload = await fetchFeed({ date: fallbackDate, city, mealType })
+          if (Array.isArray(fallbackPayload.items) && fallbackPayload.items.length > 0) {
+            payload = fallbackPayload
+            setDate(fallbackDate)
+            setNote(`已切换到最近可用日期：${fallbackDate}`)
+          }
+        }
+      }
       setItems(Array.isArray(payload.items) ? payload.items : [])
       setUpdatedAt(payload.updatedAt || null)
       if (payload.backendConfigured === false) {
