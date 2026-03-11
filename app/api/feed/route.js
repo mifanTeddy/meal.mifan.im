@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server'
 
+const DEFAULT_BACKEND_URL = 'https://meal-api.clawrun-test.app'
+
 function normalizeBase(url) {
   if (!url) return null
   return url.endsWith('/') ? url.slice(0, -1) : url
@@ -11,7 +13,7 @@ export async function GET(request) {
   const city = searchParams.get('city') || ''
   const mealType = searchParams.get('mealType') || ''
 
-  const base = normalizeBase(process.env.MEAL_BACKEND_URL || process.env.MEAL_API_BASE_URL)
+  const base = normalizeBase(process.env.MEAL_BACKEND_URL || process.env.MEAL_API_BASE_URL || DEFAULT_BACKEND_URL)
   if (!base) {
     return NextResponse.json({
       date,
