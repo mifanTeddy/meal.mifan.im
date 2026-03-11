@@ -38,7 +38,7 @@ export default function Page() {
       const payload = await fetchFeed({ date, city, mealType })
       setItems(Array.isArray(payload.items) ? payload.items : [])
       setUpdatedAt(payload.updatedAt || null)
-      if (!payload.backendConfigured) {
+      if (payload.backendConfigured === false) {
         setNote('后端未配置：请在 Vercel 配置 MEAL_BACKEND_URL。')
       } else if (payload.error === 'backend_unreachable') {
         setNote('后端暂时不可达，请稍后重试。')
@@ -64,7 +64,6 @@ export default function Page() {
       <header>
         <span className="kicker">Meal Finder</span>
         <h1>今天吃什么</h1>
-        <p className="lead">前端通过 API 拉取后端数据，结果由后端持续更新，不内置 mock 菜单。</p>
       </header>
 
       <section className="card">
@@ -121,7 +120,7 @@ export default function Page() {
           ))}
         </div>
 
-        <div className="note">{note || '前端接口基址使用 NEXT_PUBLIC_API_BASE_URL（默认 /api）。后端写入接口：backend/server.mjs -> /api/admin/upsert'}</div>
+        {note ? <div className="note">{note}</div> : null}
       </section>
     </main>
   )
