@@ -25,9 +25,13 @@ function normalizeCity(city) {
   return CITY_ALIAS[key] || raw
 }
 
+function todayInShanghai() {
+  return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai' }).format(new Date())
+}
+
 export async function GET(request) {
   const { searchParams } = new URL(request.url)
-  const date = searchParams.get('date') || ''
+  const date = searchParams.get('date') || todayInShanghai()
   const city = normalizeCity(searchParams.get('city') || '')
   const mealType = searchParams.get('mealType') || ''
 

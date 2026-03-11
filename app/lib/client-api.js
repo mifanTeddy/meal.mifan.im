@@ -21,8 +21,8 @@ async function request(url) {
 
 export function fetchFeed({ date, city, mealType }) {
   const query = new URLSearchParams()
-  query.set('date', date)
-  query.set('city', city)
-  query.set('mealType', mealType)
+  if (date) query.set('date', date)
+  if (city) query.set('city', city)
+  if (mealType) query.set('mealType', mealType)
   return request(buildUrl('/feed', query))
 }

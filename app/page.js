@@ -27,11 +27,11 @@ function randomPick(list) {
 }
 
 export default function Page() {
-  const [date, setDate] = useState(todayInShanghai())
-  const [city, setCity] = useState('shanghai')
+  const [city, setCity] = useState('')
   const [mealType, setMealType] = useState('lunch')
   const [loading, setLoading] = useState(false)
   const [items, setItems] = useState([])
+  const [dataDate, setDataDate] = useState(null)
   const [updatedAt, setUpdatedAt] = useState(null)
   const [picked, setPicked] = useState(null)
   const [note, setNote] = useState('')
@@ -43,25 +43,32 @@ export default function Page() {
     setNote('')
     setPicked(null)
     try {
-      let payload = await fetchFeed({ date, city, mealType })
-      const noData = Array.isArray(payload.items) && payload.items.length === 0
-      if (noData) {
-        const fallbackDate = shiftDate(date, -1)
-        if (fallbackDate !== date) {
-          const fallbackPayload = await fetchFeed({ date: fallbackDate, city, mealType })
-          if (Array.isArray(fallbackPayload.items) && fallbackPayload.items.length > 0) {
-            payload = fallbackPayload
-            setDate(fallbackDate)
-            setNote(`已切换到最近可用日期：${fallbackDate}`)
-          }
+      const startDate = todayInShanghai()
+      let payload = null
+      let fallbackDate = ''
+      for (let i = 0; i < 14; i += 1) {
+        const targetDate = shiftDate(startDate, -i)
+        const candidate = await fetchFeed({ date: targetDate, city, mealType })
+        payload = candidate
+        if (candidate.backendConfigured === false || candidate.error === 'backend_unreachable') {
+          break
+        }
+        if (Array.isArray(candidate.items) && candidate.items.length > 0) {
+          if (i > 0) fallbackDate = targetDate
+          break
         }
       }
+
+      if (!payload) payload = { items: [], updatedAt: null, date: startDate }
       setItems(Array.isArray(payload.items) ? payload.items : [])
+      setDataDate(payload.date || null)
       setUpdatedAt(payload.updatedAt || null)
       if (payload.backendConfigured === false) {
         setNote('后端未配置：请在 Vercel 配置 MEAL_BACKEND_URL。')
       } else if (payload.error === 'backend_unreachable') {
         setNote('后端暂时不可达，请稍后重试。')
+      } else if (fallbackDate) {
+        setNote(`已切换到最近可用日期：${fallbackDate}`)
       } else if (!Array.isArray(payload.items) || payload.items.length === 0) {
         setNote('当前筛选条件暂无数据。')
       }
@@ -89,16 +96,17 @@ export default function Page() {
       <section className="card">
         <div className="filters">
           <label>
-            日期
-            <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
-          </label>
-          <label>
             城市
             <select value={city} onChange={(e) => setCity(e.target.value)}>
+              <option value="">全部城市</option>
               <option value="shanghai">Shanghai</option>
               <option value="beijing">Beijing</option>
               <option value="hangzhou">Hangzhou</option>
               <option value="shenzhen">Shenzhen</option>
+              <option value="guangzhou">Guangzhou</option>
+              <option value="chengdu">Chengdu</option>
+              <option value="wuhan">Wuhan</option>
+              <option value="xian">Xi'an</option>
             </select>
           </label>
           <label>
@@ -111,7 +119,11 @@ export default function Page() {
             </select>
           </label>
           <label>
-            数据状态
+            数据日期
+            <input value={dataDate || 'not loaded'} readOnly />
+          </label>
+          <label>
+            更新时间
             <input value={updatedAt || 'not loaded'} readOnly />
           </label>
         </div>
