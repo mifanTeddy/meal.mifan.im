@@ -214,7 +214,6 @@ export default function Page() {
         <div className="meta-row">
           <span>推荐池：{items.length}</span>
           <span>当前筛选：{filteredItems.length}</span>
-          {loadedDate ? <span>当前数据日期：{loadedDate}</span> : null}
         </div>
 
         <div className="actions">
