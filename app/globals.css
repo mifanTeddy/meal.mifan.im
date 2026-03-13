@@ -46,8 +46,7 @@ label {
   gap: 6px;
   font-size: 12px;
   color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: .08em;
+  letter-spacing: .04em;
 }
 
 input, select {
@@ -64,6 +63,22 @@ input, select {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.meta-row {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.meta-row span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  color: var(--muted);
+  background: rgba(7, 13, 31, .62);
 }
 
 button {
@@ -100,10 +115,34 @@ button.primary {
   background: rgba(90, 41, 7, .35);
 }
 
+.picked-grid {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.tag-row {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag-btn {
+  border: 1px solid rgba(34, 211, 238, .45);
+  border-radius: 999px;
+  padding: 4px 9px;
+  background: rgba(8, 32, 44, .62);
+  color: #a5f3fc;
+  font-size: 12px;
+}
+
 .note { margin-top: 8px; color: var(--muted); font-size: 12px; }
 
 @media (max-width: 920px) {
   .filters { grid-template-columns: 1fr 1fr; }
+  .picked-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
   .filters { grid-template-columns: 1fr; }
