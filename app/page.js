@@ -1,7 +1,10 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { fetchFeed } from './lib/client-api'
+
+const CACHE_KEY = 'meal.feed.cache.v1'
+const CACHE_TTL_MS = 1000 * 60 * 20
 
 function todayInShanghai() {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai' }).format(new Date())
@@ -55,6 +58,35 @@ function normalizeText(value) {
   return String(value || '').trim().toLowerCase()
 }
 
+function readLocalCache() {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw)
+    if (!Array.isArray(parsed.items)) return null
+    if (!Number.isFinite(parsed.cachedAt)) return null
+    return {
+      items: parsed.items,
+      date: typeof parsed.date === 'string' ? parsed.date : '',
+      cachedAt: parsed.cachedAt,
+    }
+  } catch {
+    return null
+  }
+}
+
+function writeLocalCache(payload) {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify({
+      items: Array.isArray(payload.items) ? payload.items : [],
+      date: payload.date || '',
+      cachedAt: Date.now(),
+    }))
+  } catch {
+    // ignore cache write failure
+  }
+}
+
 export default function Page() {
   const [city, setCity] = useState('')
   const [mealType, setMealType] = useState('')
@@ -62,7 +94,6 @@ export default function Page() {
   const [query, setQuery] = useState('')
   const [loading, setLoading] = useState(false)
   const [items, setItems] = useState([])
-  const [loadedDate, setLoadedDate] = useState('')
   const [picked, setPicked] = useState(null)
   const [pickedMany, setPickedMany] = useState([])
   const [note, setNote] = useState('')
@@ -110,9 +141,10 @@ export default function Page() {
 
   const hasData = filteredItems.length > 0
 
-  async function loadMeals() {
-    setLoading(true)
-    setNote('')
+  async function loadMeals(options = {}) {
+    const { silent = false, hasFallbackData = false } = options
+    const canKeepData = hasFallbackData || items.length > 0
+    if (!silent) setLoading(true)
     setPicked(null)
     setPickedMany([])
     try {
@@ -133,25 +165,55 @@ export default function Page() {
       }
 
       if (!payload) payload = { items: [], updatedAt: null, date: startDate }
-      setItems(Array.isArray(payload.items) ? payload.items : [])
-      setLoadedDate(payload.date || '')
+      const incomingItems = Array.isArray(payload.items) ? payload.items : []
+
+      if (incomingItems.length > 0) {
+        setItems(incomingItems)
+        writeLocalCache({ items: incomingItems, date: payload.date || '' })
+      } else if (payload.backendConfigured === false || payload.error === 'backend_unreachable') {
+        if (!canKeepData) {
+          setItems([])
+        }
+      } else {
+        setItems([])
+      }
+
       if (payload.backendConfigured === false) {
         setNote('后端未配置：请在 Vercel 配置 MEAL_BACKEND_URL。')
       } else if (payload.error === 'backend_unreachable') {
-        setNote('后端暂时不可达，请稍后重试。')
+        setNote(canKeepData ? '后端暂时不可达，已展示本地缓存。' : '后端暂时不可达，请稍后重试。')
       } else if (fallbackDate) {
         setNote(`已切换到最近可用日期：${fallbackDate}。可通过城市/餐别/标签继续筛选。`)
-      } else if (!Array.isArray(payload.items) || payload.items.length === 0) {
+      } else if (incomingItems.length === 0) {
         setNote('当前筛选条件暂无数据。')
+      } else {
+        setNote('')
       }
     } catch {
-      setItems([])
-      setLoadedDate('')
-      setNote('请求失败，请重试。')
+      if (canKeepData) {
+        setNote('请求失败，已继续使用本地缓存。')
+      } else {
+        setItems([])
+        setNote('请求失败，请重试。')
+      }
     } finally {
-      setLoading(false)
+      if (!silent) setLoading(false)
     }
   }
+
+  useEffect(() => {
+    const cached = readLocalCache()
+    if (cached && cached.items.length > 0) {
+      const age = Date.now() - cached.cachedAt
+      setItems(cached.items)
+      setNote(`已读取本地缓存（${Math.max(1, Math.round(age / 60000))} 分钟前）`)
+      const isFresh = age < CACHE_TTL_MS
+      void loadMeals({ silent: isFresh, hasFallbackData: true })
+      return
+    }
+
+    void loadMeals()
+  }, [])
 
   function pickOne() {
     const next = randomPick(filteredItems)
@@ -214,10 +276,10 @@ export default function Page() {
         <div className="meta-row">
           <span>推荐池：{items.length}</span>
           <span>当前筛选：{filteredItems.length}</span>
+          <span>{loading ? '同步中…' : '已就绪'}</span>
         </div>
 
         <div className="actions">
-          <button className="primary" onClick={loadMeals} type="button" disabled={loading}>{loading ? '加载中...' : '加载推荐池'}</button>
           <button onClick={pickOne} type="button" disabled={!hasData}>随机抽一份</button>
           <button onClick={pickThree} type="button" disabled={!hasData}>随机抽三份</button>
         </div>
