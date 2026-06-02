@@ -1,5 +1,4179 @@
 {
   "version": 1,
-  "updatedAt": null,
-  "days": {}
+  "updatedAt": "2026-03-13T17:10:50.000Z",
+  "days": {
+    "2026-03-10": {
+      "items": [
+        {
+          "city": "北京",
+          "mealType": "breakfast",
+          "name": "小米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "养胃",
+            "高纤维"
+          ],
+          "score": 8.8,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "北京",
+          "mealType": "breakfast",
+          "name": "全麦馒头",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.5,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "北京",
+          "mealType": "breakfast",
+          "name": "水煮蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "breakfast",
+          "name": "豆腐脑（无糖）",
+          "tags": [
+            "高蛋白",
+            "植物蛋白",
+            "低脂",
+            "低卡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "breakfast",
+          "name": "拌菠菜",
+          "tags": [
+            "绿叶蔬菜",
+            "铁质",
+            "叶酸",
+            "低卡"
+          ],
+          "score": 8.6,
+          "source": "北京市卫健委推荐"
+        },
+        {
+          "city": "北京",
+          "mealType": "lunch",
+          "name": "杂粮米饭",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "北京",
+          "mealType": "lunch",
+          "name": "清蒸鲈鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.2,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "lunch",
+          "name": "蒜蓉西兰花",
+          "tags": [
+            "十字花科",
+            "抗氧化",
+            "低卡",
+            "维C"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "lunch",
+          "name": "番茄炒鸡蛋",
+          "tags": [
+            "番茄红素",
+            "高蛋白",
+            "低脂",
+            "家常"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "lunch",
+          "name": "凉拌豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "dinner",
+          "name": "燕麦粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "降脂",
+            "高纤维"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "dinner",
+          "name": "清炖豆腐汤",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "易消化",
+            "轻食"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "北京",
+          "mealType": "dinner",
+          "name": "白灼菠菜",
+          "tags": [
+            "绿叶蔬菜",
+            "低卡",
+            "铁质",
+            "易消化"
+          ],
+          "score": 8.7,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "北京",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "breakfast",
+          "name": "薏仁燕麦粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "去湿",
+            "降脂"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "breakfast",
+          "name": "蒸蛋羹",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "breakfast",
+          "name": "全麦面包（无糖）",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.8,
+          "source": "上海市卫健委推荐"
+        },
+        {
+          "city": "上海",
+          "mealType": "lunch",
+          "name": "清蒸黄鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "lunch",
+          "name": "毛豆炒玉米",
+          "tags": [
+            "植物蛋白",
+            "高纤维",
+            "低脂",
+            "粗粮"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "上海",
+          "mealType": "lunch",
+          "name": "上汤娃娃菜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "lunch",
+          "name": "清炒荷兰豆",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "植物蛋白"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "dinner",
+          "name": "冬瓜虾仁汤",
+          "tags": [
+            "低卡",
+            "高蛋白",
+            "利水消肿",
+            "轻食"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "dinner",
+          "name": "蒸红薯",
+          "tags": [
+            "低脂",
+            "高纤维",
+            "低GI",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "上海",
+          "mealType": "dinner",
+          "name": "清炒芦笋",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "叶酸",
+            "抗氧化"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "广州",
+          "mealType": "breakfast",
+          "name": "艇仔粥（少盐版）",
+          "tags": [
+            "高蛋白",
+            "易消化",
+            "低脂",
+            "广府传统"
+          ],
+          "score": 8.8,
+          "source": "广东省卫健委推荐"
+        },
+        {
+          "city": "广州",
+          "mealType": "breakfast",
+          "name": "蒸肠粉（少油）",
+          "tags": [
+            "低脂",
+            "易消化",
+            "主食",
+            "少油"
+          ],
+          "score": 8.2,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "广州",
+          "mealType": "breakfast",
+          "name": "腐竹白果薏米糖水",
+          "tags": [
+            "植物蛋白",
+            "低GI",
+            "去湿",
+            "传统"
+          ],
+          "score": 8.5,
+          "source": "广东省卫健委推荐"
+        },
+        {
+          "city": "广州",
+          "mealType": "breakfast",
+          "name": "清蒸鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "广州",
+          "mealType": "lunch",
+          "name": "清蒸石斑鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "广州",
+          "mealType": "lunch",
+          "name": "白灼菜心",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "钙质"
+          ],
+          "score": 9,
+          "source": "广东省卫健委推荐"
+        },
+        {
+          "city": "广州",
+          "mealType": "lunch",
+          "name": "丝瓜炒鸡蛋",
+          "tags": [
+            "低卡",
+            "高蛋白",
+            "利水",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "广州",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "广州",
+          "mealType": "lunch",
+          "name": "节瓜排骨汤",
+          "tags": [
+            "低脂",
+            "高蛋白",
+            "利湿",
+            "老火汤"
+          ],
+          "score": 8.6,
+          "source": "广东省卫健委推荐"
+        },
+        {
+          "city": "广州",
+          "mealType": "dinner",
+          "name": "莲藕薏米猪骨汤",
+          "tags": [
+            "祛湿",
+            "低脂",
+            "钙质",
+            "高纤维"
+          ],
+          "score": 9,
+          "source": "广东省卫健委推荐"
+        },
+        {
+          "city": "广州",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "广州",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "breakfast",
+          "name": "红糖糍粑（少量）",
+          "tags": [
+            "传统",
+            "适量",
+            "能量补充",
+            "粗粮"
+          ],
+          "score": 7.5,
+          "source": "成都市卫健委推荐"
+        },
+        {
+          "city": "成都",
+          "mealType": "breakfast",
+          "name": "豆花",
+          "tags": [
+            "植物蛋白",
+            "低脂",
+            "低卡",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "breakfast",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "成都",
+          "mealType": "breakfast",
+          "name": "水煮蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "lunch",
+          "name": "水煮鱼（少辣少油版）",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "减油版"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "lunch",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "lunch",
+          "name": "拌莴笋",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "少辣",
+            "凉拌"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "lunch",
+          "name": "清蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "lunch",
+          "name": "炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "少油少盐"
+          ],
+          "score": 8.6,
+          "source": "成都市卫健委推荐"
+        },
+        {
+          "city": "成都",
+          "mealType": "dinner",
+          "name": "藕丁炒木耳",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "铁质",
+            "抗氧化"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "dinner",
+          "name": "番茄蛋花汤",
+          "tags": [
+            "低卡",
+            "高蛋白",
+            "番茄红素",
+            "维C"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "成都",
+          "mealType": "dinner",
+          "name": "蒸玉米",
+          "tags": [
+            "粗粮",
+            "高纤维",
+            "低GI",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "西安",
+          "mealType": "breakfast",
+          "name": "杂粮稀饭",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "西安",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "西安",
+          "mealType": "breakfast",
+          "name": "凉拌黄瓜",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "西安",
+          "mealType": "breakfast",
+          "name": "全麦馍",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "西安",
+          "mealType": "lunch",
+          "name": "羊肉泡馍（少油少盐）",
+          "tags": [
+            "高蛋白",
+            "铁质",
+            "传统",
+            "减盐版"
+          ],
+          "score": 7.8,
+          "source": "陕西省卫健委推荐"
+        },
+        {
+          "city": "西安",
+          "mealType": "lunch",
+          "name": "炒菠菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "叶酸",
+            "绿叶蔬菜"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "西安",
+          "mealType": "lunch",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "西安",
+          "mealType": "lunch",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "西安",
+          "mealType": "lunch",
+          "name": "清炖排骨萝卜汤",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "钙质",
+            "易消化"
+          ],
+          "score": 8.5,
+          "source": "陕西省卫健委推荐"
+        },
+        {
+          "city": "西安",
+          "mealType": "dinner",
+          "name": "小米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "养胃",
+            "高纤维"
+          ],
+          "score": 9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "西安",
+          "mealType": "dinner",
+          "name": "凉拌豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "西安",
+          "mealType": "dinner",
+          "name": "清炒西葫芦",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "易消化"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "杭州",
+          "mealType": "breakfast",
+          "name": "莲子百合粥",
+          "tags": [
+            "低GI",
+            "养心安神",
+            "低脂",
+            "高纤维"
+          ],
+          "score": 9,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "杭州",
+          "mealType": "breakfast",
+          "name": "蒸蛋羹",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "杭州",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "杭州",
+          "mealType": "breakfast",
+          "name": "全麦面包",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "杭州",
+          "mealType": "lunch",
+          "name": "西湖醋鱼（少糖版）",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "减糖版"
+          ],
+          "score": 8.5,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "杭州",
+          "mealType": "lunch",
+          "name": "龙井虾仁",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "低卡",
+            "抗氧化"
+          ],
+          "score": 9.2,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "杭州",
+          "mealType": "lunch",
+          "name": "清炒莼菜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "抗氧化",
+            "地方特色"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "杭州",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "杭州",
+          "mealType": "lunch",
+          "name": "嫩豆腐汤",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "杭州",
+          "mealType": "dinner",
+          "name": "山药排骨汤",
+          "tags": [
+            "高蛋白",
+            "健脾",
+            "低脂",
+            "钙质"
+          ],
+          "score": 9,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "杭州",
+          "mealType": "dinner",
+          "name": "清炒荷兰豆",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "植物蛋白"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "杭州",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "武汉",
+          "mealType": "breakfast",
+          "name": "热干面（少盐少油版）",
+          "tags": [
+            "传统",
+            "减盐版",
+            "主食",
+            "高纤维"
+          ],
+          "score": 7.6,
+          "source": "湖北省卫健委推荐"
+        },
+        {
+          "city": "武汉",
+          "mealType": "breakfast",
+          "name": "豆腐脑（少盐）",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "武汉",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "武汉",
+          "mealType": "breakfast",
+          "name": "黑米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "花青素",
+            "高纤维"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "武汉",
+          "mealType": "lunch",
+          "name": "莲藕排骨汤",
+          "tags": [
+            "高蛋白",
+            "高纤维",
+            "钙质",
+            "低脂"
+          ],
+          "score": 9.2,
+          "source": "湖北省卫健委推荐"
+        },
+        {
+          "city": "武汉",
+          "mealType": "lunch",
+          "name": "清炒藕片",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "地方特色"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "武汉",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "武汉",
+          "mealType": "lunch",
+          "name": "清蒸武昌鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "地方特色"
+          ],
+          "score": 9.3,
+          "source": "湖北省卫健委推荐"
+        },
+        {
+          "city": "武汉",
+          "mealType": "lunch",
+          "name": "清炒苋菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "钙质",
+            "绿叶蔬菜"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "武汉",
+          "mealType": "dinner",
+          "name": "藕粉汤",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "易消化",
+            "地方特色"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "武汉",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.8,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "武汉",
+          "mealType": "dinner",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "深圳",
+          "mealType": "breakfast",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "深圳",
+          "mealType": "breakfast",
+          "name": "蒸蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "深圳",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "深圳",
+          "mealType": "breakfast",
+          "name": "白灼生菜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.5,
+          "source": "深圳市卫健委推荐"
+        },
+        {
+          "city": "深圳",
+          "mealType": "lunch",
+          "name": "清蒸多宝鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "深圳",
+          "mealType": "lunch",
+          "name": "白灼秋葵",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "黏液素",
+            "抗氧化"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "深圳",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "深圳",
+          "mealType": "lunch",
+          "name": "冬瓜汤",
+          "tags": [
+            "低卡",
+            "利水消肿",
+            "高水分",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "深圳市卫健委推荐"
+        },
+        {
+          "city": "深圳",
+          "mealType": "lunch",
+          "name": "清炒西兰花",
+          "tags": [
+            "十字花科",
+            "抗氧化",
+            "低卡",
+            "维C"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "深圳",
+          "mealType": "dinner",
+          "name": "玉米须瘦肉汤",
+          "tags": [
+            "低卡",
+            "利水",
+            "降糖辅助",
+            "轻食"
+          ],
+          "score": 8.8,
+          "source": "深圳市卫健委推荐"
+        },
+        {
+          "city": "深圳",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "深圳",
+          "mealType": "dinner",
+          "name": "凉拌黄瓜",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "breakfast",
+          "name": "杂粮玉米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "东北营养膳食指南"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "breakfast",
+          "name": "水煮蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白",
+            "饱腹"
+          ],
+          "score": 9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "lunch",
+          "name": "炖酸菜白肉（少盐版）",
+          "tags": [
+            "益生菌",
+            "高蛋白",
+            "低脂",
+            "东北传统"
+          ],
+          "score": 7.9,
+          "source": "黑龙江省卫健委推荐"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "lunch",
+          "name": "清炒小白菜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "钙质",
+            "维C"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "dinner",
+          "name": "小米南瓜粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "β-胡萝卜素",
+            "易消化"
+          ],
+          "score": 9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "dinner",
+          "name": "白灼豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "昆明",
+          "mealType": "breakfast",
+          "name": "薏仁红豆粥",
+          "tags": [
+            "去湿",
+            "低GI",
+            "高纤维",
+            "植物蛋白"
+          ],
+          "score": 9.1,
+          "source": "云南省卫健委推荐"
+        },
+        {
+          "city": "昆明",
+          "mealType": "breakfast",
+          "name": "蒸蛋羹",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "昆明",
+          "mealType": "lunch",
+          "name": "汽锅鸡（清汤版）",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "胶原蛋白",
+            "云南传统"
+          ],
+          "score": 9.2,
+          "source": "云南省卫健委推荐"
+        },
+        {
+          "city": "昆明",
+          "mealType": "lunch",
+          "name": "凉拌折耳根",
+          "tags": [
+            "低卡",
+            "抗菌",
+            "高纤维",
+            "地方特色"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "昆明",
+          "mealType": "dinner",
+          "name": "野生菌汤（少盐）",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "植物蛋白",
+            "抗氧化"
+          ],
+          "score": 9,
+          "source": "云南省卫健委推荐"
+        },
+        {
+          "city": "昆明",
+          "mealType": "dinner",
+          "name": "清炒青豌豆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "高纤维",
+            "维C"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "福州",
+          "mealType": "breakfast",
+          "name": "花生仁稀饭",
+          "tags": [
+            "低GI",
+            "植物蛋白",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.8,
+          "source": "福建省卫健委推荐"
+        },
+        {
+          "city": "福州",
+          "mealType": "breakfast",
+          "name": "白水蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白",
+            "易消化"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "福州",
+          "mealType": "lunch",
+          "name": "清蒸黄翅鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.3,
+          "source": "福建省卫健委推荐"
+        },
+        {
+          "city": "福州",
+          "mealType": "lunch",
+          "name": "炒地瓜叶",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "铁质",
+            "地方特色"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "福州",
+          "mealType": "dinner",
+          "name": "鱼丸汤（少盐）",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "低卡",
+            "地方特色"
+          ],
+          "score": 8.6,
+          "source": "福建省卫健委推荐"
+        },
+        {
+          "city": "福州",
+          "mealType": "dinner",
+          "name": "清炒莴笋",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "叶酸",
+            "维C"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "长沙",
+          "mealType": "breakfast",
+          "name": "糙米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "长沙",
+          "mealType": "breakfast",
+          "name": "豆腐脑（少盐）",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "长沙",
+          "mealType": "lunch",
+          "name": "清蒸湖鱼（少辣）",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "减辣版"
+          ],
+          "score": 8.8,
+          "source": "湖南省卫健委推荐"
+        },
+        {
+          "city": "长沙",
+          "mealType": "lunch",
+          "name": "凉拌苦瓜",
+          "tags": [
+            "低卡",
+            "降糖辅助",
+            "苦瓜素",
+            "清热"
+          ],
+          "score": 8.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "长沙",
+          "mealType": "dinner",
+          "name": "莲藕汤",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清热"
+          ],
+          "score": 9,
+          "source": "湖南省卫健委推荐"
+        },
+        {
+          "city": "长沙",
+          "mealType": "dinner",
+          "name": "白灼菠菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "叶酸",
+            "绿叶蔬菜"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "breakfast",
+          "name": "玉米糊糊",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.8,
+          "source": "新疆维吾尔自治区卫健委推荐"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白",
+            "易消化"
+          ],
+          "score": 9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "lunch",
+          "name": "清炖羊肉萝卜汤（少盐）",
+          "tags": [
+            "高蛋白",
+            "铁质",
+            "低脂",
+            "地方特色"
+          ],
+          "score": 8.5,
+          "source": "新疆维吾尔自治区卫健委推荐"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "lunch",
+          "name": "拌皮牙子（洋葱番茄）",
+          "tags": [
+            "低卡",
+            "维C",
+            "抗氧化",
+            "地方特色"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "dinner",
+          "name": "红枣枸杞小米粥",
+          "tags": [
+            "补铁",
+            "低GI",
+            "抗氧化",
+            "养胃"
+          ],
+          "score": 9.1,
+          "source": "新疆维吾尔自治区卫健委推荐"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "南京",
+          "mealType": "breakfast",
+          "name": "菊花脑蛋花粥",
+          "tags": [
+            "低卡",
+            "抗氧化",
+            "清热",
+            "地方特色"
+          ],
+          "score": 8.8,
+          "source": "江苏省卫健委推荐"
+        },
+        {
+          "city": "南京",
+          "mealType": "breakfast",
+          "name": "蒸蛋羹",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南京",
+          "mealType": "breakfast",
+          "name": "全麦馒头",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南京",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南京",
+          "mealType": "lunch",
+          "name": "炖菊花脑豆腐汤",
+          "tags": [
+            "低卡",
+            "植物蛋白",
+            "清热",
+            "地方特色"
+          ],
+          "score": 9.0,
+          "source": "江苏省卫健委推荐"
+        },
+        {
+          "city": "南京",
+          "mealType": "lunch",
+          "name": "清蒸长江鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.2,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南京",
+          "mealType": "lunch",
+          "name": "清炒菜心",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南京",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "南京",
+          "mealType": "lunch",
+          "name": "凉拌黄瓜",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南京",
+          "mealType": "dinner",
+          "name": "赤豆薏仁粥",
+          "tags": [
+            "低GI",
+            "去湿",
+            "高纤维",
+            "植物蛋白"
+          ],
+          "score": 9.0,
+          "source": "江苏省卫健委推荐"
+        },
+        {
+          "city": "南京",
+          "mealType": "dinner",
+          "name": "清炒藕片",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "地方特色"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南京",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "天津",
+          "mealType": "breakfast",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "天津",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "天津",
+          "mealType": "breakfast",
+          "name": "凉拌萝卜丝",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "天津",
+          "mealType": "lunch",
+          "name": "清蒸鲈鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.2,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "天津",
+          "mealType": "lunch",
+          "name": "虾皮冬瓜汤",
+          "tags": [
+            "低卡",
+            "利水消肿",
+            "高钙",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "天津市卫健委推荐"
+        },
+        {
+          "city": "天津",
+          "mealType": "lunch",
+          "name": "炒绿豆芽",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "天津",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "天津",
+          "mealType": "lunch",
+          "name": "清炒菠菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "叶酸",
+            "绿叶蔬菜"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "天津",
+          "mealType": "dinner",
+          "name": "小米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "养胃",
+            "高纤维"
+          ],
+          "score": 9.0,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "天津",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "天津",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "breakfast",
+          "name": "杂粮稀饭",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "重庆",
+          "mealType": "breakfast",
+          "name": "豆花（少盐）",
+          "tags": [
+            "植物蛋白",
+            "低脂",
+            "低卡",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "breakfast",
+          "name": "水煮蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "lunch",
+          "name": "清汤小火锅（少辣少油版）",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "减辣版",
+            "地方特色"
+          ],
+          "score": 8.0,
+          "source": "重庆市卫健委推荐"
+        },
+        {
+          "city": "重庆",
+          "mealType": "lunch",
+          "name": "拌折耳根",
+          "tags": [
+            "低卡",
+            "抗菌",
+            "高纤维",
+            "地方特色"
+          ],
+          "score": 8.2,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "重庆",
+          "mealType": "lunch",
+          "name": "清炖排骨萝卜汤",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "钙质",
+            "易消化"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "lunch",
+          "name": "清炒莴笋",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "叶酸",
+            "少油"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "dinner",
+          "name": "红薯玉米稀饭",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "dinner",
+          "name": "凉拌豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "重庆",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "青岛",
+          "mealType": "breakfast",
+          "name": "玉米红薯粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.8,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "青岛",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "青岛",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "青岛",
+          "mealType": "lunch",
+          "name": "清蒸海鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.3,
+          "source": "山东省卫健委推荐"
+        },
+        {
+          "city": "青岛",
+          "mealType": "lunch",
+          "name": "海带豆腐汤",
+          "tags": [
+            "低卡",
+            "碘质",
+            "植物蛋白",
+            "低脂"
+          ],
+          "score": 8.8,
+          "source": "山东省卫健委推荐"
+        },
+        {
+          "city": "青岛",
+          "mealType": "lunch",
+          "name": "蒜蓉西兰花",
+          "tags": [
+            "十字花科",
+            "抗氧化",
+            "低卡",
+            "维C"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "青岛",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "青岛",
+          "mealType": "lunch",
+          "name": "凉拌海蜇（少盐）",
+          "tags": [
+            "低卡",
+            "低脂",
+            "胶原蛋白",
+            "地方特色"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "青岛",
+          "mealType": "dinner",
+          "name": "小米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "养胃",
+            "高纤维"
+          ],
+          "score": 9.0,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "青岛",
+          "mealType": "dinner",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "青岛",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "breakfast",
+          "name": "小米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "养胃",
+            "高纤维"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "济南",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "breakfast",
+          "name": "全麦馒头",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "breakfast",
+          "name": "凉拌菠菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "叶酸",
+            "绿叶蔬菜"
+          ],
+          "score": 8.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "lunch",
+          "name": "清炖黄河鲤鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "地方特色"
+          ],
+          "score": 9.1,
+          "source": "山东省卫健委推荐"
+        },
+        {
+          "city": "济南",
+          "mealType": "lunch",
+          "name": "炒藕片",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "地方特色"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "济南",
+          "mealType": "lunch",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "lunch",
+          "name": "豆腐汤",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "dinner",
+          "name": "玉米糊糊",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "济南",
+          "mealType": "dinner",
+          "name": "清炒西葫芦",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "易消化"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "大连",
+          "mealType": "breakfast",
+          "name": "玉米红薯粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.8,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "大连",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "大连",
+          "mealType": "breakfast",
+          "name": "凉拌黄瓜",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "大连",
+          "mealType": "lunch",
+          "name": "清蒸海虾",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "低卡",
+            "轻烹饪"
+          ],
+          "score": 9.3,
+          "source": "辽宁省卫健委推荐"
+        },
+        {
+          "city": "大连",
+          "mealType": "lunch",
+          "name": "炒西兰花",
+          "tags": [
+            "十字花科",
+            "抗氧化",
+            "低卡",
+            "维C"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "大连",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "大连",
+          "mealType": "lunch",
+          "name": "海带汤",
+          "tags": [
+            "低卡",
+            "碘质",
+            "高纤维",
+            "清淡"
+          ],
+          "score": 8.6,
+          "source": "辽宁省卫健委推荐"
+        },
+        {
+          "city": "大连",
+          "mealType": "lunch",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "大连",
+          "mealType": "dinner",
+          "name": "小米南瓜粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "β-胡萝卜素",
+            "易消化"
+          ],
+          "score": 9.0,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "大连",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "大连",
+          "mealType": "dinner",
+          "name": "豆腐羹",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "breakfast",
+          "name": "杂粮玉米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "辽宁省卫健委推荐"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "breakfast",
+          "name": "水煮蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "breakfast",
+          "name": "全麦馒头",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "lunch",
+          "name": "炖白菜豆腐（少盐）",
+          "tags": [
+            "低卡",
+            "植物蛋白",
+            "钙质",
+            "东北传统"
+          ],
+          "score": 8.5,
+          "source": "辽宁省卫健委推荐"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "lunch",
+          "name": "清炒土豆丝（少油）",
+          "tags": [
+            "低脂",
+            "高纤维",
+            "钾质",
+            "少油"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "lunch",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "lunch",
+          "name": "萝卜排骨汤",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "钙质",
+            "易消化"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "dinner",
+          "name": "小米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "养胃",
+            "高纤维"
+          ],
+          "score": 9.0,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "dinner",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "沈阳",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "宁波",
+          "mealType": "breakfast",
+          "name": "红薯稀饭",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.8,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "宁波",
+          "mealType": "breakfast",
+          "name": "蒸蛋羹",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "宁波",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "宁波",
+          "mealType": "lunch",
+          "name": "清蒸小黄鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "地方特色"
+          ],
+          "score": 9.3,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "宁波",
+          "mealType": "lunch",
+          "name": "炒菠菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "叶酸",
+            "绿叶蔬菜"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "宁波",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "宁波",
+          "mealType": "lunch",
+          "name": "荠菜豆腐羹",
+          "tags": [
+            "低卡",
+            "植物蛋白",
+            "钙质",
+            "地方特色"
+          ],
+          "score": 8.8,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "宁波",
+          "mealType": "lunch",
+          "name": "清炒荷兰豆",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "植物蛋白"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "宁波",
+          "mealType": "dinner",
+          "name": "番薯燕麦粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "宁波",
+          "mealType": "dinner",
+          "name": "清炒马兰头",
+          "tags": [
+            "低卡",
+            "铁质",
+            "高纤维",
+            "地方特色"
+          ],
+          "score": 8.6,
+          "source": "浙江省卫健委推荐"
+        },
+        {
+          "city": "宁波",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "苏州",
+          "mealType": "breakfast",
+          "name": "藕粉粥",
+          "tags": [
+            "低GI",
+            "易消化",
+            "高纤维",
+            "地方特色"
+          ],
+          "score": 8.7,
+          "source": "江苏省卫健委推荐"
+        },
+        {
+          "city": "苏州",
+          "mealType": "breakfast",
+          "name": "蒸蛋羹",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "苏州",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "苏州",
+          "mealType": "lunch",
+          "name": "清蒸鲈鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.2,
+          "source": "江苏省卫健委推荐"
+        },
+        {
+          "city": "苏州",
+          "mealType": "lunch",
+          "name": "炒塘藕",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "地方特色"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "苏州",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "苏州",
+          "mealType": "lunch",
+          "name": "荠菜豆腐汤",
+          "tags": [
+            "低卡",
+            "植物蛋白",
+            "钙质",
+            "地方特色"
+          ],
+          "score": 8.9,
+          "source": "江苏省卫健委推荐"
+        },
+        {
+          "city": "苏州",
+          "mealType": "lunch",
+          "name": "清炒菜心",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "苏州",
+          "mealType": "dinner",
+          "name": "山药薏仁粥",
+          "tags": [
+            "低GI",
+            "健脾",
+            "去湿",
+            "高纤维"
+          ],
+          "score": 9.0,
+          "source": "江苏省卫健委推荐"
+        },
+        {
+          "city": "苏州",
+          "mealType": "dinner",
+          "name": "清炒马兰头",
+          "tags": [
+            "低卡",
+            "铁质",
+            "高纤维",
+            "地方特色"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "苏州",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "郑州",
+          "mealType": "breakfast",
+          "name": "小米粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "养胃",
+            "高纤维"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "郑州",
+          "mealType": "breakfast",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "郑州",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "郑州",
+          "mealType": "lunch",
+          "name": "烩面（少盐少油版）",
+          "tags": [
+            "传统",
+            "减盐版",
+            "高纤维",
+            "主食"
+          ],
+          "score": 7.8,
+          "source": "河南省卫健委推荐"
+        },
+        {
+          "city": "郑州",
+          "mealType": "lunch",
+          "name": "炒菠菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "叶酸",
+            "绿叶蔬菜"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "郑州",
+          "mealType": "lunch",
+          "name": "清炖牛肉萝卜汤",
+          "tags": [
+            "高蛋白",
+            "铁质",
+            "低脂",
+            "易消化"
+          ],
+          "score": 8.6,
+          "source": "河南省卫健委推荐"
+        },
+        {
+          "city": "郑州",
+          "mealType": "lunch",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "郑州",
+          "mealType": "lunch",
+          "name": "蒸玉米",
+          "tags": [
+            "粗粮",
+            "高纤维",
+            "低GI",
+            "饱腹"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "郑州",
+          "mealType": "dinner",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "郑州",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "郑州",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "合肥",
+          "mealType": "breakfast",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "合肥",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "合肥",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "合肥",
+          "mealType": "lunch",
+          "name": "清蒸鳜鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "地方特色"
+          ],
+          "score": 9.2,
+          "source": "安徽省卫健委推荐"
+        },
+        {
+          "city": "合肥",
+          "mealType": "lunch",
+          "name": "炒藕片",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "地方特色"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "合肥",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "合肥",
+          "mealType": "lunch",
+          "name": "豆腐脑（少盐）",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "合肥",
+          "mealType": "lunch",
+          "name": "清炒西兰花",
+          "tags": [
+            "十字花科",
+            "抗氧化",
+            "低卡",
+            "维C"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "合肥",
+          "mealType": "dinner",
+          "name": "红豆薏仁粥",
+          "tags": [
+            "低GI",
+            "去湿",
+            "高纤维",
+            "植物蛋白"
+          ],
+          "score": 9.0,
+          "source": "安徽省卫健委推荐"
+        },
+        {
+          "city": "合肥",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "合肥",
+          "mealType": "dinner",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南昌",
+          "mealType": "breakfast",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "南昌",
+          "mealType": "breakfast",
+          "name": "豆腐脑（少盐）",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南昌",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南昌",
+          "mealType": "lunch",
+          "name": "清蒸草鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "地方特色"
+          ],
+          "score": 9.0,
+          "source": "江西省卫健委推荐"
+        },
+        {
+          "city": "南昌",
+          "mealType": "lunch",
+          "name": "清炒冬瓜",
+          "tags": [
+            "低卡",
+            "利水消肿",
+            "高水分",
+            "清淡"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南昌",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "南昌",
+          "mealType": "lunch",
+          "name": "藜蒿炒豆腐干（少油）",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "植物蛋白",
+            "地方特色"
+          ],
+          "score": 8.4,
+          "source": "江西省卫健委推荐"
+        },
+        {
+          "city": "南昌",
+          "mealType": "lunch",
+          "name": "清炖豆腐汤",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南昌",
+          "mealType": "dinner",
+          "name": "莲子百合粥",
+          "tags": [
+            "低GI",
+            "养心安神",
+            "低脂",
+            "高纤维"
+          ],
+          "score": 9.0,
+          "source": "江西省卫健委推荐"
+        },
+        {
+          "city": "南昌",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南昌",
+          "mealType": "dinner",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "breakfast",
+          "name": "薏仁粥",
+          "tags": [
+            "去湿",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 9.0,
+          "source": "贵州省卫健委推荐"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "lunch",
+          "name": "清汤牛肉粉（少盐）",
+          "tags": [
+            "高蛋白",
+            "铁质",
+            "低脂",
+            "地方特色"
+          ],
+          "score": 8.2,
+          "source": "贵州省卫健委推荐"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "lunch",
+          "name": "炒折耳根",
+          "tags": [
+            "低卡",
+            "抗菌",
+            "高纤维",
+            "地方特色"
+          ],
+          "score": 8.1,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "lunch",
+          "name": "清炖乌鸡汤",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "补铁",
+            "滋补"
+          ],
+          "score": 9.0,
+          "source": "贵州省卫健委推荐"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "lunch",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "dinner",
+          "name": "苦荞麦粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "降糖辅助",
+            "高纤维"
+          ],
+          "score": 9.1,
+          "source": "贵州省卫健委推荐"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "dinner",
+          "name": "蒸南瓜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "β-胡萝卜素",
+            "饱腹"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "贵阳",
+          "mealType": "dinner",
+          "name": "凉拌黄瓜",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.4,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南宁",
+          "mealType": "breakfast",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "南宁",
+          "mealType": "breakfast",
+          "name": "蒸蛋羹",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "易消化",
+            "优质蛋白"
+          ],
+          "score": 8.9,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南宁",
+          "mealType": "breakfast",
+          "name": "白灼菜心",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "钙质"
+          ],
+          "score": 8.8,
+          "source": "广西壮族自治区卫健委推荐"
+        },
+        {
+          "city": "南宁",
+          "mealType": "lunch",
+          "name": "清蒸罗非鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "地方特色"
+          ],
+          "score": 8.9,
+          "source": "广西壮族自治区卫健委推荐"
+        },
+        {
+          "city": "南宁",
+          "mealType": "lunch",
+          "name": "炒空心菜",
+          "tags": [
+            "低卡",
+            "铁质",
+            "维C",
+            "地方特色"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南宁",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "南宁",
+          "mealType": "lunch",
+          "name": "老火汤（少盐）",
+          "tags": [
+            "低脂",
+            "高蛋白",
+            "胶原蛋白",
+            "地方特色"
+          ],
+          "score": 8.7,
+          "source": "广西壮族自治区卫健委推荐"
+        },
+        {
+          "city": "南宁",
+          "mealType": "lunch",
+          "name": "凉拌苦瓜",
+          "tags": [
+            "低卡",
+            "降糖辅助",
+            "苦瓜素",
+            "清热"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南宁",
+          "mealType": "dinner",
+          "name": "八宝粥（少糖）",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "植物蛋白"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南宁",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "南宁",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "breakfast",
+          "name": "小米红薯粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.9,
+          "source": "河北省卫健委推荐"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "breakfast",
+          "name": "全麦馒头",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "breakfast",
+          "name": "凉拌黄瓜",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "lunch",
+          "name": "清炖羊肉汤（少盐）",
+          "tags": [
+            "高蛋白",
+            "铁质",
+            "低脂",
+            "地方特色"
+          ],
+          "score": 8.3,
+          "source": "河北省卫健委推荐"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "lunch",
+          "name": "炒白菜",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "钙质"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "lunch",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "lunch",
+          "name": "蒸玉米",
+          "tags": [
+            "粗粮",
+            "高纤维",
+            "低GI",
+            "饱腹"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "dinner",
+          "name": "杂粮粥",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "养胃"
+          ],
+          "score": 8.8,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "石家庄",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "breakfast",
+          "name": "全麦馒头",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "breakfast",
+          "name": "凉拌黄瓜",
+          "tags": [
+            "低卡",
+            "高水分",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.3,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "lunch",
+          "name": "清蒸鲫鱼",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "Omega-3",
+            "轻烹饪"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "lunch",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "哈尔滨",
+          "mealType": "dinner",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "昆明",
+          "mealType": "breakfast",
+          "name": "玉米糊",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "云南省卫健委推荐"
+        },
+        {
+          "city": "昆明",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "昆明",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "昆明",
+          "mealType": "lunch",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "昆明",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "福州",
+          "mealType": "breakfast",
+          "name": "全麦馒头",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "福州",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "福州",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "福州",
+          "mealType": "lunch",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "福州",
+          "mealType": "dinner",
+          "name": "蒸玉米",
+          "tags": [
+            "粗粮",
+            "高纤维",
+            "低GI",
+            "饱腹"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "长沙",
+          "mealType": "breakfast",
+          "name": "煮鸡蛋",
+          "tags": [
+            "高蛋白",
+            "低脂",
+            "优质蛋白"
+          ],
+          "score": 9.0,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "长沙",
+          "mealType": "breakfast",
+          "name": "无糖豆浆",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "低脂",
+            "钙质"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "长沙",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "长沙",
+          "mealType": "lunch",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "长沙",
+          "mealType": "dinner",
+          "name": "蒸红薯",
+          "tags": [
+            "粗粮",
+            "低脂",
+            "高纤维",
+            "低GI"
+          ],
+          "score": 8.8,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "breakfast",
+          "name": "全麦馍",
+          "tags": [
+            "粗粮",
+            "低GI",
+            "高纤维",
+            "饱腹"
+          ],
+          "score": 8.6,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "lunch",
+          "name": "杂粮饭",
+          "tags": [
+            "低GI",
+            "粗粮",
+            "高纤维",
+            "主食"
+          ],
+          "score": 8.9,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "lunch",
+          "name": "凉拌木耳",
+          "tags": [
+            "低卡",
+            "铁质",
+            "抗氧化",
+            "高纤维"
+          ],
+          "score": 8.7,
+          "source": "薄荷健康"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "lunch",
+          "name": "清炒时蔬",
+          "tags": [
+            "低卡",
+            "高纤维",
+            "维C",
+            "清淡"
+          ],
+          "score": 8.7,
+          "source": "中国居民膳食指南2022"
+        },
+        {
+          "city": "乌鲁木齐",
+          "mealType": "dinner",
+          "name": "蒸豆腐",
+          "tags": [
+            "植物蛋白",
+            "低卡",
+            "钙质",
+            "低脂"
+          ],
+          "score": 8.5,
+          "source": "薄荷健康"
+        }
+      ]
+    }
+  }
 }
